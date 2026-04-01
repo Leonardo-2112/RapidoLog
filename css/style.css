@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+#orcamento {
+    transform: scale(0.9);
+    transform-origin: top center;
+    margin-bottom: -50px; /* ajusta conforme necessário */
+}
+.nav_bar_menu{
+    background-color:#0B2A45 ;
+}
+/* Faz ocupar a tela toda */
+#carouselBanner {
+    width: 100%;
+}
+
+/* Altura do banner */
+#carouselBanner .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+/* Centralizar conteúdo no meio */
+.custom-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: unset;
+}
+
+/* Fundo escuro leve (melhora leitura) */
+.custom-caption h1,
+.custom-caption p {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+/* Fundo da página (igual cinza claro da imagem) */
+body {
+    background-color: #f1f3f5;
+}
+
+/* Cards azuis */
+.card-box {
+    background-color: #6FB2F5; /* azul parecido com o da imagem */
+    border-radius: 15px;
+    padding: 40px 20px;
+    color: #000;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto dentro */
+.card-box h1 {
+    color: #2C55CC;
+    margin-bottom: 10px;
+}
+
+.card-box p {
+    margin: 0;
+    font-size: 1.1rem;
+}
