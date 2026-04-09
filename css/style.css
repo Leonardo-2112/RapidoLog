@@ -26,19 +26,19 @@
     bottom: unset;
 }
 
-/* Fundo escuro leve (melhora leitura) */
+/* Fundo escuro leve  */
 .custom-caption h1,
 .custom-caption p {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
-/* Fundo da página (igual cinza claro da imagem) */
+/* Fundo da página */
 body {
     background-color: #f1f3f5;
 }
 
 /* Cards azuis */
 .card-box {
-    background-color: #6FB2F5; /* azul parecido com o da imagem */
+    background-color: #6FB2F5;
     border-radius: 15px;
     padding: 40px 20px;
     color: #000;
@@ -59,4 +59,9 @@ body {
 .card-box p {
     margin: 0;
     font-size: 1.1rem;
+}
+.banner_carga{
+    width: 800px;
+    border-radius: 9px;
+
 }
